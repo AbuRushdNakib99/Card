@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: monospace;
+        }
+        .cards{
+            width: 30%;
+            background-color: rgb(230, 130, 130);
+            border-radius: 10px;
+            margin: 40px;
+            display: inline-block;
+            
+        }
+        .cards:hover{
+            box-shadow: 4px 4px 4px 4px black;
+        }
+
+        .image img{
+            width: 100%;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .title{
+            text-align: center;
+            padding: 4px;
+        }
+        .des{
+            text-align: center;
+            padding: 4px;
+        }
+        button{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-color: wheat;
+            border: 2px solid black;
+            padding: 5px;
+            border-radius: 6px;
+        }
+        button:hover{
+            background-color: black;
+            color: cornsilk;
+            transition: 1s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+     <div class="cards">
+         <div class="image">
+             <img src="Bangladesh.jpg" alt="">
+         </div>
+         <div class="title">
+             <h1>Title Name</h1>
+         </div>
+         <div class="des">
+             <p>Write Your Title Description Here..</p>
+            <button>Read More</button>
+         </div>
+        </div>
+        <!-- Cards -->
+        <div class="cards">
+           <div class="image">
+               <img src="jim.jpg" alt="">
+           </div>
+           <div class="title">
+               <h1>Title Name</h1>
+           </div>
+           <div class="des">
+               <p>Write Your Title Description Here..</p>
+              <button>Read More</button>
+           </div>
+        </div>
+</body>
+</html>
